@@ -30,4 +30,28 @@ header nav ul a {
   color: #0C0421;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+}
+header #home {
+  max-width: 1040px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #home .textos-home {
+  max-width: 464px;
+  font-size: 42px;
+  color: #0C0421;
+  margin-bottom: 2rem;
+  font-family: "Korna One", sans-serif;
+}
+header #home .textos-home span {
+  color: #4E75FF;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
