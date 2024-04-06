@@ -32,6 +32,9 @@ header nav ul a {
   color: #0C0421;
   font-weight: 500;
 }
+header nav ul a:hover {
+  font-weight: 700;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -56,9 +59,12 @@ header #home .textos-home .btn-main {
   border: none;
   outline: none;
   border-radius: 66px;
-  background: #4E75FF;
+  background: #CAD4FA;
   color: #FFFFFF;
   font-size: 1.3rem;
+}
+header #home .textos-home .btn-main:hover {
+  background: #4E75FF;
 }
 header #home .img-home {
   max-width: 474px;
@@ -120,5 +126,10 @@ header #home .img-home img {
 #servico .cards .card-titulo {
   font-family: "Korna One", sans-serif;
   font-size: 1.6rem;
+  color: #0C0421;
+}
+#servico .cards .card-texto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
   color: #0C0421;
 }/*# sourceMappingURL=styles.css.map */
